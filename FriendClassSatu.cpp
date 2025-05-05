@@ -21,7 +21,7 @@ class siswa
     public:
     void setId(int pId);
     void displayALL(orang &a)
-};
+}
 void orang::setNama(string pNama)
 {
     nama = pNama
@@ -33,4 +33,14 @@ void siswa ::setId(int pId)
 void siswa::displayALL(orang &a)
 {
     cout << id << endl << a.nama;
+}
+int main ()
+{
+    orang joko;
+    joko.setNama("Joko Susilo");
+    siswa joko_siswa;
+    joko_siswa.setId(1);
+    joko_siswa.displayALL(joko);
+    return 0;
+
 }
