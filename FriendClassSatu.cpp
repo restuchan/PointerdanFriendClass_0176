@@ -12,3 +12,8 @@ class orang
     void setNama(string pNama);
     Friend class siswa;
 };
+
+class siswa 
+{
+    private:
+}
