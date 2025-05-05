@@ -23,4 +23,10 @@ void manusia::showNilaiPelajar(pelajar &x)
 {
     cout << x.nilai;
 }
+//void manusia::showNilaiPelajarDua(pelajar &y)
+// {
+//        cout << y.nilai;
+//}
+
+
 
