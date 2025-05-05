@@ -21,4 +21,9 @@ class siswa
     public:
     void setId(int pId);
     void displayALL(orang &a)
+};
+void orang::setNama(string pNama)
+{
+    nama = pNama
 }
+
