@@ -12,3 +12,10 @@ class staf{
     public:
     int nidn;
 }
+
+int main(){
+    Dosen ds;
+    ds.nama = "Giga";
+    ds.tampiNama();
+
+   
