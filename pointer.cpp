@@ -18,4 +18,11 @@ int main(){
     ds.nama = "Giga";
     ds.tampiNama();
 
+    Dosen &dsref = ds;
+    dsref.nama = "Joko";
+    cout << "Alamat memori = " << &dsref << endl;
+    dsref.tampilNama();
+
+   
+
    
