@@ -30,3 +30,7 @@ void siswa ::setId(int pId)
 {
     id = pId;
 }
+void siswa::displayALL(orang &a)
+{
+    cout << id << endl << a.nama;
+}
