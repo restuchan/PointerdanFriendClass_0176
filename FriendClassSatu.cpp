@@ -10,7 +10,7 @@ class orang
 
     public:
     void setNama(string pNama);
-    Friend class siswa;
+    friend class siswa;
 };
 
 class siswa 
